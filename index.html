@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Hwa Chong 100th Anniversary Herritage Trail</title>
+	<meta name=viewport content='width=device-width, initial-scale=1'>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:400,500|Roboto:400,700&subset=chinese-simplified" rel="stylesheet">
+	<link rel='stylesheet' type='text/css' href='assets/css/main.css'>
+	<link rel='stylesheet' type='text/css' href='assets/css/fab.css'>
+	<link rel='stylesheet' type='text/css' href='assets/css/fx.css'>
+	<link rel='stylesheet' type='text/css' href='assets/css/splashscreens.css'>
+	<link rel='stylesheet' type='text/css' href='assets/css/viewer.css'>
+</head>
+<body>
+	<div id=loading>
+			<svg class=spinner width=30 height=30 viewBox='0 0 66 66' xmlns='http://www.w3.org/2000/svg'>
+				<circle class=path fill=none stroke-width=6 stroke-linecap=round cx=33 cy=33 r=30></circle>
+			</svg>
+			<div id='loading-text'>Loading</div>
+	</div>
+	<div id='change-portrait'>
+		<div>
+			Please rotate your phone to its portrait orientation<br>
+			请将手机旋转到纵向模式
+		</div>
+		<img src='images/rotate.svg'>
+	</div>
+	<div id='change-phone'>
+		<div>
+			Please use your phone to access this website<br>
+			请使用手机浏览此网站
+		</div>
+		<img src='images/phone.svg'>
+	</div>
+	<img id=logo src='images/logo.png' height=100>
+	<div id=cards></div>
+	<div id=viewer></div>
+
+	<div id='more-dimmer' class='hidden'></div>	
+	<a id='more-fab' class='noselect'><img src='images/more.svg'></a>
+
+	<div id='change-language' class='fab-menu-item hidden'>
+		<div>更换语言</div>
+		<a id='change-language-fab' class='noselect' href='index_cn.html'>
+			<img class='noselect' src='images/language_icon.svg'>
+		</a>
+	</div>
+
+	<div id='view-map' class='fab-menu-item hidden'>
+		<div>Map</div>
+		<a id='view-map-fab' class='noselect' href='map.html'>
+			<img src='images/map.svg'>
+		</a>
+	</div>
+
+	<div id='view-tutorial' class='fab-menu-item hidden'>
+		<div>Tutorial</div>
+		<a id='view-about-fab' class='noselect' href='tutorial.html'>
+			<img src='images/info.svg'>
+		</a>
+	</div>
+
+	<div id='spacer'></div>
+	<strong id=close>&#x2715;</strong>
+
+	<script src='assets/js/setLocations.js'></script>
+	<script src='assets/js/main.js'></script>
+	<script src='assets/js/fx.js'></script>
+</body>
+</html>

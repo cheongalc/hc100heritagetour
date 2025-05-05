@@ -1,0 +1,30 @@
+#loading, #more-dimmer {
+	position: fixed;
+	backface-visibility: hidden;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	transition: .2s opacity ease-in-out;
+}
+#loading {
+	z-index: 6;
+	padding-top: 30vh;
+	background-color: #772524;
+}
+#more-dimmer {
+	background-color: #F3F4EF;
+	transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+	opacity: 0.9;
+	visibility: visible;
+	z-index: 2;
+}
+#more-dimmer.hidden {
+	opacity: 0;
+	visibility: hidden;
+}
+#loading.hidden.hidden2 {
+	opacity: 0;
+}

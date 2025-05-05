@@ -1,0 +1,39 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+body {
+	margin: 0px;
+	font: 18px Roboto, 'Noto Sans SC', sans-serif;
+	line-height: 1.4;
+	overflow-y: hidden;
+}
+img {
+	width: 100%;
+}
+.map {
+	width: 100vw;
+	height: 100vh;
+	background-color: #772524;
+}
+img.open {
+	animation: .2s ease-in-out slideImage;
+	z-index: 4;
+}
+@keyframes slideImage {
+	from {
+		transform: translateY(100vh);
+	}
+	to {
+		transform: translateY(0);
+	}
+}
+img.openFixed {
+	transition: none;
+	transform: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+#viewer {
+	transition: .2s transform ease-in-out;
+}

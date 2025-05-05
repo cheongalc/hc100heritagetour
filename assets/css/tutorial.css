@@ -1,0 +1,147 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+body {
+	margin: 0px;
+	font: 20px Roboto, 'Noto Sans SC', sans-serif;
+	line-height: 1.4;
+	background-color: #772524;
+	color: #FFFFFF;
+}
+
+.text-container {
+	margin-left: 16px;
+	margin-right: 16px;
+}
+.hci-logo {
+	width: auto;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-100%);
+}
+.down-logo {
+	position: absolute;
+	bottom: 16px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 15%;
+}
+.fullscreen-wrapper {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+.fullscreen-wrapper p {
+	width: 100%;
+	text-align: center;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -60%);
+}
+.ec3-logo {
+	width: auto;
+	margin: 8px auto;
+	display: block;
+}
+a {
+	color: #FFFFFF;
+}
+img {
+	width: 100%;
+}
+.h2-img-header {
+	display: flex;
+	align-items: center;
+}
+.h2-img-header img {
+	width: auto;
+	height: 1.5em;
+}
+.h2-img-header h2 {
+	margin: 0px 0px 0px 16px;
+}
+
+.center-align {
+	text-align: center;
+}
+
+.main-page {
+	width: 100%;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	padding: 16px;
+	color: #772524;
+	background-color: #F3F4EF;
+	border-radius: 16px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, .25);
+	cursor: pointer;
+	text-align: center;
+	font-weight: bold;
+}
+
+.sticky {
+	position: sticky;
+	--webkit-position: sticky;
+	top: 0px;
+	left: 0px;
+}
+
+.sticky-bottom {
+	position: sticky;
+	--webkit-position: sticky;
+	bottom: 30px;
+}
+
+.tutorial-img-1 {
+	height: 100vh;
+	width: auto !important;
+	margin: auto;
+	display: block;
+}
+.tutorial-img-c1 {
+	height: 3800px;
+}
+
+video {
+	width: 100%;
+}
+
+section {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+}
+
+.tutorial-content {
+	padding: 16px;
+	background-color: rgba(119, 37, 36, 0.9);
+	box-shadow: 0 2px 8px rgba(0, 0, 0, .25);
+}
+
+.s1 {
+	top: 2100px;
+}
+
+.s2 {
+	top: 3000px;
+}
+
+.s3 {
+	top: 4000px;
+}
+
+.s4 {
+	height: 2300px;
+}
+
+.s5 {
+	height: 5300px;
+}
+
+.s6 {
+	height: 3800px;
+}

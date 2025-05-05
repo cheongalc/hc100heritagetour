@@ -1,0 +1,9 @@
+body {font-size: 20px;}
+#viewer h1, #viewer h2 {
+	font-weight: 500;
+}
+#viewer p {
+	padding: 8px 12px;
+}
+.card div {width: 110px;}
+.card h1 {max-width: calc(100% - 142px - calc(100% * .025))}
